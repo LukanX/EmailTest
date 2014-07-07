@@ -1,0 +1,6 @@
+#Apple Crap
+.DS_Store
+
+#Sassy Things
+.sass-cache/
+.sass-cache/*
