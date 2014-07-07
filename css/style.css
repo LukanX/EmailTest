@@ -54,11 +54,15 @@ table {
 html, body {
   width: 100%; }
 
-.gheader section {
-  padding: 0 30px; }
-  .gheader section.top {
-    background-color: #f1f1f1;
-    height: 60px; }
+.gheader {
+  position: fixed;
+  top: 0;
+  left: 0; }
+  .gheader section {
+    padding: 0 30px; }
+    .gheader section.top {
+      background-color: #f1f1f1;
+      height: 60px; }
 
 .full-width {
   width: 100%; }

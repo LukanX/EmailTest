@@ -3,6 +3,9 @@ html, body{
 }
 
 .gheader{
+	position: fixed;
+	top: 0;
+	left: 0;
 	section{
 		padding: 0 30px;
 		&.top{
