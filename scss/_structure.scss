@@ -1,0 +1,17 @@
+html, body{
+	width: 100%;
+}
+
+.gheader{
+	section{
+		padding: 0 30px;
+		&.top{
+			background-color: #f1f1f1;
+			height: 60px;
+		}
+	}
+}
+
+.full-width{
+	width: 100%;
+}
