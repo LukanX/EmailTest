@@ -101,11 +101,11 @@ header {
   left: 0;
   width: 220px; }
 
-#email-container {
-  max-width: 85%;
+#content-container {
+  max-width: 80%;
   min-width: 680px;
   padding-top: 120px;
   padding-left: 220px; }
-  #email-container .email {
+  #content-container .email {
     margin-bottom: 2%;
     float: left; }
