@@ -54,8 +54,12 @@ header{
 }
 
 #email-container{
-	max-width: 90%;
+	max-width: 85%;
 	min-width: 680px;
 	padding-top: 120px;
 	padding-left: 220px;
+	.email{
+		margin-bottom: 2%;
+		float: left;
+	}
 }
