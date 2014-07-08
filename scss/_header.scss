@@ -1,0 +1,61 @@
+/********************* HEADER *****************/
+header{
+	position: fixed;
+	top: 0;
+	left: 0;
+	min-width: 900px;
+	section{
+		padding: 0 30px;
+		border-bottom: 1px solid #e5e5e5;
+		clear: both;
+		&.top{
+			background-color: #f1f1f1;
+			height: 60px;
+			img{
+				padding-top: 15px;
+			}
+		}
+		&.bottom{
+			height: 50px;
+			background-color: #fff;
+			img{
+				padding-top: 10px;
+			}
+		}
+	}
+	img{
+		display: block;
+		&.left{
+			float: left;
+		}
+		&.right{
+			float: right;
+		}
+	}
+}
+
+#logo-search{
+	display: block;
+	float: left;
+	padding-top: 15px;
+}
+
+#plus-bar{
+	display: block;
+	float: right;
+	padding-top: 15px;
+}
+
+#sidebar{
+	position: fixed;
+	top: 110px;
+	left: 0;
+	width: 220px;
+}
+
+#email-container{
+	max-width: 90%;
+	min-width: 680px;
+	padding-top: 120px;
+	padding-left: 220px;
+}
