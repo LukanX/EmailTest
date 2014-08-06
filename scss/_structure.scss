@@ -19,3 +19,13 @@ html, body{
 /* start commented backslash hack \*/
 * html .clearfix { height: 1%; }
 .clearfix { display: block; }
+
+.hidden{
+	display: none;
+}
+
+#timetravel{
+	padding-top: 20px;
+	text-align: right;
+	padding-bottom: 20px;
+}

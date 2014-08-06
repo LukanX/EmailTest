@@ -76,6 +76,14 @@ html, body {
 .clearfix {
   display: block; }
 
+.hidden {
+  display: none; }
+
+#timetravel {
+  padding-top: 20px;
+  text-align: right;
+  padding-bottom: 20px; }
+
 /********************* HEADER *****************/
 header {
   position: fixed;
@@ -127,6 +135,8 @@ header {
   #content-container .email {
     margin-bottom: 2%;
     float: left; }
+  #content-container img {
+    width: 100%; }
 
 #email-container {
   min-width: 680px;
