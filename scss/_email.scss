@@ -1,0 +1,87 @@
+#email-container{
+	min-width: 680px;
+	max-width: 100%;
+	padding-top: 120px;
+	padding-left: 220px;
+	padding-right: 20px;
+	font-family: arial, sans-serif;
+	font-size: 12px;
+	ul{
+		list-style: unstyled;
+		margin: 0;
+		padding: 0;
+	}
+	li{
+		padding: .5em;
+		width: 100%;
+		background-color: #F3F3F3;
+		border-top: 1px solid #D7D7D7;
+		white-space: nowrap;
+		overflow:hidden;
+		position: relative;
+		cursor: pointer;
+		&.unread{
+			background-color: #fff;
+			font-weight: bold;
+			.subject span{
+				font-weight: normal;
+			}
+			.time{
+				background: #fff;
+			}
+		}
+		&:last-child{
+			border-bottom: 1px solid #D7D7D7;
+		}
+		.icons{
+			float: left;
+			margin-right: 1em;
+			li{ 
+				display: inline-block; 
+				margin-right: .5em;
+				border:none;
+				padding: 0;}
+				margin: none;
+			.icon{
+				height: 15px;
+				width: 15px;
+			}
+			.box{
+				border: 1px solid #C0C0C0;
+			}
+			.star{
+				background: url(https://ssl.gstatic.com/ui/v1/star/star4.png) no-repeat center center;
+			}
+			.tag{
+				background: url(https://ssl.gstatic.com/ui/v1/icons/mail/sprite_importance_2x.png) no-repeat -2px -2px;
+				background-size: 57px 57px;
+			}
+		}
+
+		.text{
+			line-height: 15px;
+			padding-top: 1px;
+			float: left;
+		}
+		.sender{
+			width: 200px;
+		}
+		.subject{
+			min-width: 150px;
+			max-width: 55%;
+			white-space: nowrap;
+			overflow: hidden;
+			text-overflow: hidden;
+			span{
+				color: #77777B;
+			}
+		}
+		.time{
+			position: absolute;
+			padding: .25em 2em .25em 1em;
+			background-color: #F3F3F3;
+			top: 5px;
+			right: 0;
+		}
+	}
+}
